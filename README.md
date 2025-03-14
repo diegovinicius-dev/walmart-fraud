@@ -1,11 +1,26 @@
 # Detecção de Fraudes em Entregas do Walmart
 
-[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)](https://github.com/seu_usuario/seu_repositorio)
-[![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-green)](https://github.com/seu_usuario/seu_repositorio/blob/main/LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.9-blue)](https://www.python.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-%23152C5B.svg?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
-[![NumPy](https://img.shields.io/badge/Numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-%23F77B00.svg?style=for-the-badge&logo=Matplotlib&logoColor=white)](https://matplotlib.org/)
+<p align="center">
+  <a href="https://github.com/seu_usuario/seu_repositorio">
+    <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow" alt="Status">
+  </a>
+  <a href="https://github.com/seu_usuario/seu_repositorio/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/Licen%C3%A7a-MIT-green" alt="Licença">
+  </a>
+  <br>
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3.9-blue" alt="Python">
+  </a>
+  <a href="https://pandas.pydata.org/">
+    <img src="https://img.shields.io/badge/Pandas-%23152C5B.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+  </a>
+  <a href="https://numpy.org/">
+    <img src="https://img.shields.io/badge/Numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="Numpy">
+  </a>
+  <a href="https://matplotlib.org/">
+    <img src="https://img.shields.io/badge/Matplotlib-%23F77B00.svg?style=for-the-badge&logo=Matplotlib&logoColor=white" alt="Matplotlib">
+  </a>
+</p>
 
 ## 1. Visão Geral
 
