@@ -7,10 +7,10 @@
   <a href="https://github.com/seu_usuario/seu_repositorio/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/Licen%C3%A7a-MIT-green" alt="Licença">
   </a>
-  <br>
   <a href="https://www.python.org/">
     <img src="https://img.shields.io/badge/Python-3.9-blue" alt="Python">
   </a>
+  <br>
   <a href="https://pandas.pydata.org/">
     <img src="https://img.shields.io/badge/Pandas-%23152C5B.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
   </a>
