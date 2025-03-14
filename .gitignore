@@ -1,0 +1,31 @@
+# Arquivos e pastas do sistema
+Thumbs.db
+
+# Arquivos e pastas do PyCharm
+.idea/
+*.iml
+*.iws
+
+# Arquivos e pastas do Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Arquivos de log
+*.log
+
+# Arquivos de dados (se você não quiser versioná-los)
+*.csv
+*.xlsx
+*.json
+
+# Ambientes virtuais (se você usar)
+venv/
+.venv/
+env/
+
+# Arquivos temporários
+*~
+\#*#
+.*.swp
