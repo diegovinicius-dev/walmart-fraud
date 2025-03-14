@@ -79,6 +79,32 @@ def explore_categorical_columns(orders_df):
     print("\nValores únicos na coluna delivery_hour:")
     print(orders_df['delivery_hour'].unique())
 
+    # Calcular a frequência de categorias
+    print("\nFrequência de valores na coluna region:")
+    print(orders_df['region'].value_counts())
+
+    print("\nFrequência de valores na coluna delivery_hour:")
+    print(orders_df['delivery_hour'].value_counts())
+
+    # Visualizar as frequências com gráficos de barras
+    # Gráfico de barras para region
+    plt.figure(figsize=(10, 6))
+    orders_df['region'].value_counts().plot(kind='bar', color='skyblue')
+    plt.title('Frequência de Regiões', fontsize=16)
+    plt.xlabel('Região', fontsize=12)
+    plt.ylabel('Frequência', fontsize=12)
+    plt.xticks(rotation=45, ha='right')  # Rotaciona os rótulos do eixo X
+    plt.show()
+
+    # Gráfico de barras para delivery_hour
+    plt.figure(figsize=(10, 6))
+    orders_df['delivery_hour'].value_counts().plot(kind='bar', color='salmon')
+    plt.title('Frequência de Horários de Entrega', fontsize=16)
+    plt.xlabel('Horário de Entrega', fontsize=12)
+    plt.ylabel('Frequência', fontsize=12)
+    plt.xticks(rotation=0)  # Mantém os rótulos do eixo X na horizontal
+    plt.show()
+
 
 def explore_trips(drivers_df):
     # Estatísticas Descritivas
@@ -102,3 +128,4 @@ def explore_trips(drivers_df):
     plt.xlabel('Número de Viagens', fontsize=12)
     plt.ylabel('Densidade', fontsize=12)
     plt.show()
+
